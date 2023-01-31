@@ -37,17 +37,13 @@ const middle = function(array) {
     return [Math.floor(midArray), Math.ceil(midArray) + 1];
   }
 
-  
-
   //if array length is 1 or 2 return empty array
-  //if array lenth is odd return middle
-  //with the array length divide it by 2 and return math.floor & math .ceil
-  //if array length is even return both middle
-  //with the array length divide it by 2 and return that array position
+  //if array length is odd return middle
+  //if array length is even length divide it by 2 and return math.floor & math .ceil to get the high and low number
 };
 
 
-console.log(middle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // => [5]
+console.log(middle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // => [5, 6]
 console.log(middle([1, 2, 3, 4,])); // => [2, 3]
 console.log(middle([1, 2, 3,])); // => [2])
 console.log(middle([1, 2])); // => []
