@@ -41,7 +41,7 @@ const assertArraysEqual = function(actual, expected) {
 //   console.log(stringArray);
 // };
 
-
+//letPosition FUNCTION
 const letterPositions = function(sentence) {
 //creat obj for everything to be pushed into
   const results = {};
