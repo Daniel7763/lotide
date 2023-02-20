@@ -13,25 +13,5 @@ const eqArrays = function(array1, array2) {
   }
 };
 
-// assertArraysEqual FUNCTION
-const assertArraysEqual = function(actual, expected) {
-  if (eqArrays(actual, expected)) {
-    console.log(`✅Assertion passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🚫Assertion failed: ${actual} !== ${expected}`);
-  }
-};
-
-// TEST CODE
-// assertArraysEqual("Lighthouse Labs", "Bootcamp");
-// assertArraysEqual(1, 1);
-
-eqArrays([1, 2, 3], [1, 2, 3]);
-
-assertArraysEqual(eqArrays([1, 2, 3], [3, 2, 1])); // => false
-
-assertArraysEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"])); // => true
-
-assertArraysEqual(eqArrays(["1", "2", "3"], ["1", "2", 3])); // => false
-
-assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
+//export
+module.exports = eqArrays;
