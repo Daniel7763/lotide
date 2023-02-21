@@ -1,6 +1,5 @@
 //require
-const {eqArrays} = require('./index');
-console.log(eqArrays);
+const eqArrays = require("./eqArrays");
 
 // assertArraysEqual FUNCTION
 const assertArraysEqual = function(actual, expected) {
@@ -12,7 +11,6 @@ const assertArraysEqual = function(actual, expected) {
     console.log(`Assertion failed: ${actual} !== ${expected}`);
   }
 };
-console.log(assertArraysEqual([1,2], [1,2]));
 
 //export
 module.exports = assertArraysEqual;

@@ -6,6 +6,7 @@ const findKey = require("./findKey");
 const assertArraysEqual = require("./assertArraysEqual");
 const eqArrays = require("./eqArrays");
 const eqObjects = require("./eqObjects");
+const assertEqual = require("./assertEqual");
 
 
 
@@ -18,4 +19,5 @@ module.exports = {
   assertArraysEqual,
   eqArrays,
   eqObjects,
+  assertEqual,
 };
