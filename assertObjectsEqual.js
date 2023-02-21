@@ -31,9 +31,9 @@ const assertObjectsEqual = function(actual, expected) {
 };
 
 
-const objectTest1 = { a: '1', b: 2 }
-const objectTest2 = { a: '1', b: 2 }
-const objectTest3 = { b: 2, a: '1' }
+const objectTest1 = { a: '1', b: 2 };
+const objectTest2 = { a: '1', b: 2 };
+const objectTest3 = { b: 2, a: '1' };
 const objectTest4 = { a: '111', b: 222 };
 
 console.log(assertObjectsEqual(objectTest1, objectTest2));

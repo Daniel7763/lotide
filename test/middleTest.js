@@ -1,6 +1,6 @@
-//const eqArrays = require("../eqArrays");
-const assertArraysEqual = require("../assertArraysEqual");
-const middle = require("../middle");
+//require
+const {assertArraysEqual} = require("../index");
+const {middle} = require("../index");
 
 //if array length is 1 or 2 return empty array
 //if array length is odd return middle
@@ -12,5 +12,3 @@ assertArraysEqual(middle([1, 2, 3, 4,]), [2,3]); // => [2, 3]
 assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
 assertArraysEqual(middle([1, 2]), []); // => []
 assertArraysEqual(middle([1, ]), []); // => []
-
-module.exports = middle;

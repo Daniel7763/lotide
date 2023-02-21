@@ -1,5 +1,5 @@
 //require head
-const head = require('../head');
+const {head} = require('../index');
 //const assertEqual = require('../assertEqual');
 
 //require chai
@@ -21,6 +21,3 @@ describe("#head", () => {
   });
 
 });
-
-//Export
-module.exports = head;

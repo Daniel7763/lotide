@@ -44,3 +44,5 @@ const planetSuns = findKey({
 
 console.log(assertEqual(planetSuns, "noma"));
 console.log(assertEqual(planetSuns, "Ora"));
+
+module.exports = findKey;

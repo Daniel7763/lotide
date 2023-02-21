@@ -1,5 +1,5 @@
 //require
-const tail = require('../tail');
+const {tail} = require('../index');
 //const assertEqual = require('../assertEqual');
 
 //chai require
@@ -16,7 +16,3 @@ describe("#tail", () => {
   });
 
 });
-
-
-//export
-module.exports = tail;
