@@ -1,4 +1,4 @@
-//require head
+//require
 const {head} = require('../index');
 //const assertEqual = require('../assertEqual');
 

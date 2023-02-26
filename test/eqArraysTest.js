@@ -1,11 +1,7 @@
 //require
 const {eqArrays} = require("../index");
-
-//require chai
-const { assert } = require("chai").assert;
-
-// TEST CODE
-// assertArraysEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
+//STRETCH
+//const { assert } = require("chai").assert;
 
 //chai test code
 describe("#eqArrays", () => {
