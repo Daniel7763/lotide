@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@daniel7763/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide is a set of functions to automate simple comparison and assertion tasks",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Daniel7763/lotide.git"
   },
-  "author": "",
+  "author": "Daniel S.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Daniel7763/lotide/issues"
