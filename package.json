@@ -1,6 +1,6 @@
 {
   "name": "@daniel7763/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lotide is a set of functions to automate simple comparison and assertion tasks",
   "main": "index.js",
   "scripts": {
