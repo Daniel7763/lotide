@@ -1,4 +1,4 @@
-const assertArraysEqual = require("./assertArraysEqual");
+// const assertArraysEqual = require("./assertArraysEqual");
 
 
 //letPosition FUNCTION
@@ -16,9 +16,10 @@ const letterPosition = function(sentence) {
 
   return results;
 };
-// its normal to reference the key by adding a period then key name
-assertArraysEqual(letterPosition("godzilla rabbit").o, [1]);
 
-console.log(letterPosition("godzilla rabbit"));
+// its normal to reference the key by adding a period then key name
+// assertArraysEqual(letterPosition("godzilla rabbit").o, [1]);
+
+// console.log(letterPosition("godzilla rabbit"));
 
 module.exports = letterPosition;

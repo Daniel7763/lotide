@@ -4,10 +4,6 @@ const {findKey} = require("../index");
 //chai require
 const assert = require("chai").assert;
 
-//TEST
-// findKey(planetSuns, "noma"));
-// findKey(planetSuns, "Ora"));
-
 //chai test
 describe("#findKeyTest", () => {
   it("passes if value is 2", () => {

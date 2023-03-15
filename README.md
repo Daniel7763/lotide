@@ -1,6 +1,6 @@
 # Lotide
 
-A mini clone of the [Lodash](https://lodash.com) library.
+A mini clone of the [Lodash](https://lodash.com) library, A modern JavaScript utility library delivering modularity, performance & extras.
 
 ## Purpose
 
@@ -28,23 +28,23 @@ The following functions are currently implemented:
 
 
 
-assertArraysEqual(...): asserts that two arrays are equal
-assertEqual(...): checks if strings and numbers are equal
-assertObjects Equal(...): asserts if two objects are equal
-countLetters(...): count the number of letters in a string
-countOnly(...): return counts for a specific subset of those items
-eqArrays(...): compares arrays for a match
-eqObjects(...): compares two objects for a match
-findKey(...): scans an object and returns the first key for which the callback returns a truthy.
-findKeyByValue(...): returns a key from an object when provided with a value as an argument
-flatten(...): takes multiple arrays and pushes them to one array
-head(...): returns the first element in an array
-letterPositions(...): takes in a string and returns a tally of all the letters used in the string.
-map(...): makes a copy of an array
-middle(...): returns the middle most values in an array
-tail(...): returns all elements in an array except for the first element
-takeUntil(...): takes an array and loops through it until a charcter or word is found
-without(...): returns an array without the input values
+* assertArraysEqual(...): asserts that two arrays are equal, console log results.
+* assertEqual(...): checks if two strings are equal.
+* assertObjectsEqual(...): asserts if two objects are equal.
+* countLetters(...): count the number of letters in a string and make an object with the characters listed without spaces.
+* countOnly(...): return a number tally for a specified character.
+* eqArrays(...): compares arrays for a match. returns true or false.
+* eqObjects(...): compares two objects for a match. returns true or false.
+* findKey(...): scans an object and returns the first key for which the callback returns a truthy.
+* findKeyByValue(...): returns a key from an object when provided with a value as an argument.
+* flatten(...): takes multiple arrays and pushes them to one array.
+* head(...): returns the first element in an array.
+* letterPositions(...): takes in a string and returns that letters first position in an array.
+* map(...): makes a copy of an array.
+* middle(...): returns the middle most values in an array.
+* tail(...): returns all elements in an array except for the first element.
+* takeUntil(...): Loops through an array until a charcter or word is found.
+* without(...): returns an array without the input values.
 
 
 
